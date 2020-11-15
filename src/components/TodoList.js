@@ -12,7 +12,7 @@ const TodoList = () => {
   return (
     <>
       {todos &&
-        todos.map((todo, _) => {
+        todos.map((todo, ) => {
             return <Todo key={`todo-${todo.id}`} todo={todo} />;
           })
         }
